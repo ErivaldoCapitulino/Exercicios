@@ -53,7 +53,7 @@ public class Agenda {
 				case 4:
 					System.out.println("==== SELECIONAR ====");
 
-					System.out.println("Informe qual o usuário você que pesquisar: ");
+					System.out.println("Informe qual o usuário você quer pesquisar: ");
 					nome = entrada.next();
 					for (String i : agenda) {
 						if (agenda.contains(nome)) {
